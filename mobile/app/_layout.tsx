@@ -17,6 +17,20 @@ export default function RootLayout() {
         }}
       />
 
+      <Stack.Screen 
+        name="create/index" 
+        options={{
+          headerShown: false
+        }}
+      />
+
+      <Stack.Screen 
+        name="nutrition/index" 
+        options={{
+          headerShown: false
+        }}
+      />
+
 
     </Stack>
   );
