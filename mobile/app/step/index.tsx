@@ -6,7 +6,6 @@ import {z} from 'zod'
 import { zodResolver } from '@hookform/resolvers/zod'
 import { useForm } from 'react-hook-form'
 import { router } from  'expo-router'
-import { blue } from 'react-native-reanimated/lib/typescript/reanimated2/Colors'
 import {userDataStore} from '../../store/data'
 
 

@@ -1,8 +1,7 @@
-import { View, StyleSheet, Text, TouchableOpacity, Modal } from 'react-native';
+import { View, StyleSheet, Text, TouchableOpacity, Modal, FlatList } from 'react-native';
 import { Controller } from 'react-hook-form'
 import { colors } from '../../constants/colors'
 import { Feather } from '@expo/vector-icons';
-import { FlatList } from 'react-native-gesture-handler';
 import { useState } from 'react';
 
 interface OptionsProps{

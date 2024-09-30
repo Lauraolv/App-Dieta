@@ -1,11 +1,10 @@
-import {View, Text, StyleSheet, Pressable} from 'react-native'
+import {View, Text, StyleSheet, Pressable, ScrollView} from 'react-native'
 import {colors} from '../../constants/colors'
 import {object, z} from 'zod'
 import { zodResolver } from '@hookform/resolvers/zod'
 import { useForm } from 'react-hook-form'
 import { Header } from '@/components/header'
 import { Select } from '../../components/input/select'
-import { ScrollView } from 'react-native-gesture-handler'
 import { userDataStore } from '../../store/data'
 import { router } from  'expo-router'
 
